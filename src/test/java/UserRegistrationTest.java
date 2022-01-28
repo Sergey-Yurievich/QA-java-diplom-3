@@ -27,6 +27,7 @@ public class UserRegistrationTest {
     public void before() {
         Configuration.startMaximized = true;
         mainPage = open(MainPage.URL, MainPage.class);
+
     // Для MacOS
     //System.setProperty("webdriver.chrome.driver", "src/resources/yandexdriver");
     // Для Windows
